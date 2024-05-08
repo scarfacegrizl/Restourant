@@ -2,6 +2,9 @@
     position: relative;
     box-sizing: border-box;
 }
+html{
+    overflow-x: hidden;
+}
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
@@ -55,7 +58,7 @@ body {
 }
 
 .cart-img {
-    position: absolute;
+    /* position: absolute; */
     top: 18px;
     right: 7px;
 }
@@ -108,7 +111,7 @@ body {
     font-weight: 400;
 
     text-align: center;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
 
     margin-top: 222px;
@@ -124,7 +127,7 @@ body {
 }
 
 .header-suptitle:after {
-    position: absolute;
+    /* position: absolute; */
     content: '';
     height: 2px;
     width: 61px;
@@ -134,7 +137,7 @@ body {
 }
 
 .header-suptitle:before {
-    position: absolute;
+    /* position: absolute; */
     content: '';
     height: 2px;
     width: 61px;
@@ -263,21 +266,21 @@ body {
 }
 
 .imgages-1 {
-    position: absolute;
+    /* position: absolute; */
     z-index: 0;
     top: 54px;
     left: 211px;
 }
 
 .imgages-2 {
-    position: absolute;
+    /* position: absolute; */
     z-index: 999;
     top: -92px;
     left: 383px;
 }
 
 .imgages-3 {
-    position: absolute;
+    /* position: absolute; */
     z-index: 999;
     top: 246px;
     left: 481px;
@@ -408,7 +411,7 @@ body {
 }
 
 .price-image {
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     right: 32px;
 }
@@ -418,7 +421,7 @@ body {
 }
 
 .price-420 {
-    position: absolute;
+    /* position: absolute; */
     bottom: 32px;
     right: 56px;
     color: #fff;
@@ -496,7 +499,9 @@ body {
 .galery-down,
 .galery-up {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
     margin-bottom: 20px;
 }
 
@@ -545,7 +550,7 @@ body {
 }
 
 .burger-slide {
-    position: absolute;
+    /* position: absolute; */
 }
 
 button {
@@ -571,13 +576,13 @@ button {
         display: block;
     }
 
-    .img-gal,
+    /* .img-gal,
     .galery-up,
     .galery-down {
         display: block;
         margin-left: auto;
         margin-right: auto;
-    }
+    } */
 
     .img-gal {
         margin-bottom: 20px;
