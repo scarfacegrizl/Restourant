@@ -1,10 +1,18 @@
+*{
+    position: relative;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    position: relative;
+    width: 100%; /* Add this line */
+    overflow-x: hidden;
 }
 
 .container {
     margin: 0px 166px;
+    position: relative;
 }
 
 .header {
@@ -685,6 +693,7 @@ button {
     .card {
         width: 100%;
         margin-top: 30px;
+        margin-right: 0;
         padding-bottom: 20px;
     }
 
@@ -698,7 +707,13 @@ button {
     .history-holder {
         display: block;
     }
-
+    .history-number {
+        flex-direction: column;
+    }
+    .burger-item {
+        display: flex;
+        flex-direction: column;
+    }
     .menu-item {
         width: auto;
     }
